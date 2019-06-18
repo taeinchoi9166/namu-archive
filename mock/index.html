@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+   <script src="https://kit.fontawesome.com/003cbf9f34.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="side-bar">
+      <input type="checkbox" id="side-bar-toggler">
+      <div class="side-wrap">
+        <label for="side-bar-toggler"><i class="fas fa-sign-out-alt"></i></label>
+        <h2><i class="fas fa-sitemap"></i> archive directory</h2>
+        <ul>
+          <li class="folder-name">
+            <span><i class="fas fa-folder"></i>folder1</span>
+            <ul>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+            </ul>
+          </li>
+          <li class="folder-name">
+            <span><i class="fas fa-folder"></i>folder1</span>
+            <ul>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+            </ul>
+          </li>
+          <li class="folder-name">
+            <span><i class="fas fa-folder"></i>folder1</span>
+            <ul>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+              <li class="pdf-name"><i class="far fa-file-pdf"></i>file1</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content-wrap">
+      <header>
+        <label for="side-bar-toggler"><i class="fas fa-folder-minus"></i></label>
+        <span>파일을 선택하세요.</span>
+      </header>
+
+      <div class="panel">
+          <input type="text" id="target-url">
+          <button type="button" onclick="changeNamuwiki()">검색</button>
+          <button type="button">다운로드</button>
+      </div>
+      <section class="site-viewer">
+        <iframe src="https://namu.wiki" width="100%" height="100%"></iframe>
+      </section>
+      <section class="pdf-viewer">
+        <embed src="./pdf-test.pdf" type="application/pdf" width="100%" height="100%"></embed>
+      </section>
+    </div>
+  </div>
+  <script>
+    function changeNamuwiki(){
+      let keyword = document.getElementById("target-url").value;
+      document.getElementsByTagName('iframe')[0].src="https://namu.wiki/w/"+keyword;
+    }
+  </script>
+</body>
+</html>
