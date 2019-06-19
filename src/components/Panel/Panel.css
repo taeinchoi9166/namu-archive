@@ -1,0 +1,30 @@
+.panel{
+    width:100%;
+    height: 5%;
+    padding:0 20px;
+}
+.panel>*{
+    float:left;
+}
+
+.panel input{
+    height: 80%;
+    border: none;
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    color:#111;
+}
+.panel input + button{
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+.panel button{
+    background: #11a078;
+    height: 80%;
+    padding:3px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right:30px;
+    cursor: pointer;
+}

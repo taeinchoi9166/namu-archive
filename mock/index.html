@@ -8,7 +8,7 @@
    <script src="https://kit.fontawesome.com/003cbf9f34.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="onload">
   <div class="container">
     <div class="side-bar">
       <input type="checkbox" id="side-bar-toggler">
@@ -69,6 +69,10 @@
     function changeNamuwiki(){
       let keyword = document.getElementById("target-url").value;
       document.getElementsByTagName('iframe')[0].src="https://namu.wiki/w/"+keyword;
+    }
+    onload = function(){
+      document.querySelector("webview").src = "https://namu.wiki/w/";
+      console.log("ok")
     }
   </script>
 </body>
