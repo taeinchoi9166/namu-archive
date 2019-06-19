@@ -1,0 +1,76 @@
+.side-bar *{
+    color:#ddd;
+}
+
+.side-bar{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.side-bar input[type=checkbox]{
+    display: none;
+}
+label[for=side-bar-toggler]{
+    display: block;
+    width:50px;
+    height: 50px;
+    border-radius: 5px;
+    background: #333;
+    padding:13px;
+    cursor: pointer;
+}
+label[for=side-bar-toggler] i{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+#side-bar-toggler:checked ~ .side-wrap{
+    left:0%;
+}
+
+.side-bar .side-wrap{
+    width:30%;
+    position: absolute;
+    left:-30%;
+    height: 100%;
+    background: #393939;
+    z-index:2;
+    top:0;
+    transition: left 0.7s;
+    max-width: 400px;
+}
+.side-bar .side-wrap i{
+    font-size: 1.3rem;
+    margin-right:10px;
+}
+.side-wrap label{
+    right:20px;
+    top:20px;
+    position: absolute;
+}
+.side-wrap h2{
+    width:100%;
+    padding:20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+.folder-name>span,.pdf-name{
+    transition: 0.2s;
+    cursor: pointer;
+}
+.side-wrap>ul{
+    width:80%;
+    margin:0 10%;
+}
+.side-wrap .folder-name,.pdf-name{
+    margin:11px 0;
+}
+.side-wrap i{
+    transition: color 0.2s;
+}
+.side-wrap .folder-name:hover>span,.side-wrap .folder-name:hover>span>i{
+    font-size: 1.4rem;
+    color:#11a078;
+}
+.side-wrap .folder-name>ul>.pdf-name:hover,.side-wrap .folder-name>ul>.pdf-name:hover>i{
+    color:#11a078;
+}
