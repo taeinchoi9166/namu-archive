@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8574c9cb-e67b-467c-9a3e-b4f611dbad04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Browser/Browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Browser/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Panel/Panel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Panel/Panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Panel/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideBar/SideBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideBar/SideBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SideBar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer/Viewer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer/Viewer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Viewer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Wrapper/Wrapper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Wrapper/Wrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Wrapper/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mock/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mock/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mock/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/electron/electron-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/electron/electron-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/electron/electron-config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -62,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Browser/Browser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -272,6 +246,7 @@
       <workItem from="1560872412106" duration="788000" />
       <workItem from="1560904285363" duration="1227000" />
       <workItem from="1560911663984" duration="6955000" />
+      <workItem from="1561024303194" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="carried : namuarchive">
       <created>1560872807342</created>
@@ -280,11 +255,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560872807342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20190620 01:42">
+      <created>1560962547676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560962547676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19277000" />
+    <option name="totallyTimeSpent" value="19922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,7 +285,6 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49656358" weight="0.32936078" />
@@ -312,10 +293,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49828178" weight="0.32827735" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4991409" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49828178" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="GraphQL" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5042955" side_tool="true" weight="0.31960997" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49570447" visible="true" weight="0.31960997" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5017182" side_tool="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49570447" weight="0.31960997" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,7 +308,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="carried : namuarchive" />
-    <option name="LAST_COMMIT_MESSAGE" value="carried : namuarchive" />
+    <MESSAGE value="20190620 01:42" />
+    <option name="LAST_COMMIT_MESSAGE" value="20190620 01:42" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scripts/start.js">
@@ -497,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Panel/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -524,13 +500,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/electron/electron-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Viewer/Viewer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -545,10 +514,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/electron/electron-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Panel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Browser/Browser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
