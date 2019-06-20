@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from 'react';//
-// const {Web} = require('electron');
+const WebView = require('react-electron-web-view');
 //const WebView = window.require('electron').web;
 
 class Browser extends Component{
@@ -15,14 +15,13 @@ class Browser extends Component{
         });
         console.log(this.state);
         //this.state.browser.open('https://namu.wiki');
-
     }
 
     render(){
         return(
             <Fragment>
                 <section className="site-viewer">
-                    <webview id="foo" className="web-view" src="https://www.github.com/" ></webview>
+                    <WebView id="foo" className="web-view" width="100%" height="100%" src="https://www.github.com/" ></WebView>
                 </section>
             </Fragment>
         );

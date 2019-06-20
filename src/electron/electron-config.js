@@ -10,10 +10,10 @@ function initWindow(){
 
     browserView.loadURL('http://localhost:3000');
 
-    let view = new BrowserView();
-    browserView.setBrowserView(view);
-    view.setBounds({x:0,y:200, width:500, height:700});
-    view.webContents.loadURL("https://www.naver.com");
+    // let view = new BrowserView();
+    // browserView.setBrowserView(view);
+    // view.setBounds({x:0,y:200, width:500, height:700});
+    // view.webContents.loadURL("https://www.naver.com");
 }
 app.on('ready',initWindow);
 app.on('window-all-closed',()=>{

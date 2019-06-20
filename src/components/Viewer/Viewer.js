@@ -1,10 +1,18 @@
 import React,{Component} from 'react';
 //import pdfWindow from 'electron-pdf-window';
+//import pdf from './../../pdfiles/pdf-test.pdf';
+import {Document, Page} from 'react-pdf/dist/entry.webpack';
+
 class Viewer extends Component{
     render(){
+        const path = require('path');
+        //console.log(pdf);
         return(
             <section className="pdf-viewer">
-                <embed src="./pdf-test.pdf" type="application/pdf" width="100%" height="100%"></embed>
+                <Document file='./sample.pdf' height="100%" noData="nope." >
+                    <Page pageNumber={1}/>
+                </Document>
+                {/*<embed src={path.resolve(__dirname,"./../../../pdf-test.pdf")} type="application/pdf" width="100%" height="100%"></embed>*/}
             </section>
         );
     }
