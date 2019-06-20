@@ -18,8 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "start-electron": "electron ./src/electron/electron-config.js",
-    "eject": "react-scripts eject"
+    "start-electron": "electron ./src/electron/electron-config.js"
   },
   "eslintConfig": {
     "extends": "react-app"
