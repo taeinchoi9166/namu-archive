@@ -12,8 +12,9 @@ function initWindow(){
 
     let view = new BrowserView();
     browserView.setBrowserView(view);
-    view.setBounds({x:0,y:200, width:500, height:700});
-    view.webContents.loadURL("https://www.naver.com");
+    view.setBounds({x:400,y:200, width:500, height:600});
+    view.setAutoResize({width:true,height:true})
+    view.webContents.loadURL("https://namu.wiki/w/");
 }
 app.on('ready',initWindow);
 app.on('window-all-closed',()=>{
