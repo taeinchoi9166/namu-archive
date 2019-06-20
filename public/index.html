@@ -11,6 +11,7 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <script src="https://kit.fontawesome.com/003cbf9f34.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.min.js"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -22,9 +23,21 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body onload="postLoading()">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div class="container" id="root"></div>
+    <iframe src="https://namu.wiki/w/%EB%82%98%EB%AC%B4%EC%9C%84%ED%82%A4:%EB%8C%80%EB%AC%B8"></iframe>
+   <script>
+     function postLoading(){
+       let doc = new jsPDF();
+       let source = window.document.getElementsByTagName("body")[1];
+       console.log(source);
+       doc.fromHTML(source,15,15,{'width':180});
+       doc.output("hello.pdf");
+     }
+
+   </script>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
