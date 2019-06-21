@@ -66,8 +66,7 @@
   },
   "devDependencies": {
     "electron": "^5.0.4",
-    "electron-pdf-window": "^1.0.12",
-    "@react-pdf/renderer": "^1.6.2"
+    "electron-pdf-window": "^1.0.12"
   },
   "scripts": {
     "start": "node scripts/start.js",
@@ -139,5 +138,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "build": {
+    "extraResources": ["./public/**"]
   }
 }

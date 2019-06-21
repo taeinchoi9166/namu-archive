@@ -10,11 +10,11 @@ function initWindow(){
 
     browserView.loadURL('http://localhost:3000');
 
-    let view = new BrowserView();
-    browserView.setBrowserView(view);
-    view.setBounds({x:400,y:200, width:500, height:600});
-    view.setAutoResize({width:true,height:true})
-    view.webContents.loadURL("https://namu.wiki/w/");
+    // let view = new BrowserView();
+    // browserView.setBrowserView(view);
+    // view.setBounds({x:400,y:200, width:500, height:600});
+    // view.setAutoResize({width:true,height:true})
+    // view.webContents.loadURL("https://namu.wiki/w/");
 }
 app.on('ready',initWindow);
 app.on('window-all-closed',()=>{

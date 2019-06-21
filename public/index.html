@@ -29,25 +29,25 @@
 
    <script>
      function postLoading(){
-       const fs = require('fs');
-       let doc = new jsPDF();
-       let source = window.document.querySelector("iframe body");
-       console.log(source);
-       doc.fromHTML(source,15,15,{'width':180,'height':190});
-       fs.writeFileSync("hello.pdf",doc.output(),(e)=>{
-
-       });
+       // const fs = require('fs');
+       // let doc = new jsPDF();
+       // let source = window.document.querySelector("iframe body");
+       // console.log(source);
+       // doc.fromHTML(source,15,15,{'width':180,'height':190});
+       // fs.writeFileSync("hello.pdf",doc.output(),(e)=>{
+       //
+       // });
      }
-     onload = () => {
-       var wv = document.getElementById("foo");
-
-       const renderView = ()=>{
-         console.log("ok");
-         wv.loadURL("https://www.naver.com");
-         wv.removeEventListener('dom-ready',renderView);
-       };
-       wv.addEventListener("click",renderView);
-     }
+     // onload = () => {
+     //   var wv = document.getElementById("foo");
+     //
+     //   const renderView = ()=>{
+     //     console.log("ok");
+     //     wv.loadURL("https://www.naver.com");
+     //     wv.removeEventListener('dom-ready',renderView);
+     //   };
+     //   wv.addEventListener("click",renderView);
+     // }
 
    </script>
 
