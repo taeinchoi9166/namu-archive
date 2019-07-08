@@ -14,6 +14,8 @@
     "babel-preset-react-app": "^9.0.0",
     "camelcase": "^5.2.0",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "chart.js": "^2.8.0",
+    "crawler": "^1.2.1",
     "css-loader": "2.1.1",
     "dotenv": "6.2.0",
     "dotenv-expand": "4.2.0",
@@ -31,6 +33,7 @@
     "html2canvas": "^1.0.0-rc.3",
     "html2canvas-proxy": "^1.0.1",
     "identity-obj-proxy": "3.0.0",
+    "immutable": "^4.0.0-rc.12",
     "is-wsl": "^1.1.0",
     "jest": "24.7.1",
     "jest-environment-jsdom-fourteen": "0.1.0",
@@ -52,6 +55,7 @@
     "react-electron-web-view": "^2.0.1",
     "react-electron-webview": "^2.0.2",
     "react-pdf": "^4.1.0",
+    "request": "^2.88.0",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "semver": "6.0.0",
@@ -63,14 +67,12 @@
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "4.2.0",
-    "xmlhttprequest": "^1.8.0",
-    "crawler": "^1.2.1",
-    "request": "^2.88.0"
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
+    "@react-pdf/renderer": "^1.6.2",
     "electron": "^5.0.4",
-    "electron-pdf-window": "^1.0.12",
-    "@react-pdf/renderer": "^1.6.2"
+    "electron-pdf-window": "^1.0.12"
   },
   "scripts": {
     "start": "node scripts/start.js",
