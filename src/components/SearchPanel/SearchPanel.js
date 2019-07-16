@@ -94,7 +94,7 @@ class SearchPanel extends Component{
         return(
           <div className="panel">
               {this.state.keyword}<br/>
-              <input id="search-keyword" type="text" defaultValue={""} value={this.state.keyword} onChange={this.changeKeyword}/>
+              <input id="search-keyword" type="text" defaultValue="" value={this.state.keyword} onChange={this.changeKeyword}/>
               <button id="search-btn" type="button" onClick={this.searchCard}>검색</button>
               <div>
                   {
